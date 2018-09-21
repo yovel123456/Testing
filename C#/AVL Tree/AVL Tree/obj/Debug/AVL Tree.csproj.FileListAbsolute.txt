@@ -5,3 +5,10 @@ C:\Users\yovel\Desktop\Git\AVL Tree\AVL Tree\bin\Debug\AVL Tree.exe
 C:\Users\yovel\Desktop\Git\AVL Tree\AVL Tree\bin\Debug\AVL Tree.pdb
 C:\Users\yovel\Desktop\Git\AVL Tree\AVL Tree\obj\Debug\AVL Tree.exe
 C:\Users\yovel\Desktop\Git\AVL Tree\AVL Tree\obj\Debug\AVL Tree.pdb
+C:\Users\yovel\Desktop\Git\C#\AVL Tree\AVL Tree\bin\Debug\AVL Tree.exe.config
+C:\Users\yovel\Desktop\Git\C#\AVL Tree\AVL Tree\bin\Debug\AVL Tree.exe
+C:\Users\yovel\Desktop\Git\C#\AVL Tree\AVL Tree\bin\Debug\AVL Tree.pdb
+C:\Users\yovel\Desktop\Git\C#\AVL Tree\AVL Tree\obj\Debug\AVL Tree.csprojAssemblyReference.cache
+C:\Users\yovel\Desktop\Git\C#\AVL Tree\AVL Tree\obj\Debug\AVL Tree.csproj.CoreCompileInputs.cache
+C:\Users\yovel\Desktop\Git\C#\AVL Tree\AVL Tree\obj\Debug\AVL Tree.exe
+C:\Users\yovel\Desktop\Git\C#\AVL Tree\AVL Tree\obj\Debug\AVL Tree.pdb
