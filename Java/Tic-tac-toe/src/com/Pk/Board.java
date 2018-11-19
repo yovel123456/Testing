@@ -1,17 +1,17 @@
 package com.Pk;
 
-public class Board {
+class Board {
 
     // named-constants for the dimensions
-    private static final int ROWS = 3;
-    private static final int COLS = 3;
+    static final int ROWS = 3;
+    static final int COLS = 3;
 
     // package access
     Cell[][] cells; // a board composes of ROWS-by-COLS Cell instances
     int currentRow, currentCol; // the current Seed's row and column
 
     // constructor to initialize the game board
-    public Board(){
+    Board(){
         cells = new Cell[ROWS][COLS]; // allocating the array
         for (int row = 0; row < ROWS; row++){
             for (int col = 0; col < COLS; col++){
@@ -21,7 +21,7 @@ public class Board {
     }
 
     // initialize (or re-initialize) the contents of the game board
-    public void init() {
+    void init() {
         for (int row = 0; row < ROWS; ++row) {
             for (int col = 0; col < COLS; ++col) {
                 cells[row][col].clear();
@@ -30,7 +30,7 @@ public class Board {
     }
 
     // return true if it is a draw (i.e., no more EMPTY cells)
-    public boolean isDraw(){
+     boolean isDraw(){
         for (int row = 0; row < ROWS; ++row) {
             for (int col = 0; col < COLS; ++col) {
                 if(cells[row][col].content == Seed.EMPTY)
@@ -41,7 +41,7 @@ public class Board {
     }
 
     // returns true if the player with 'theSeed" has won with last move
-    private boolean hasWon(Seed theSeed) {
+     boolean hasWon(Seed theSeed) {
         return (cells[currentRow][0].content == theSeed         // checking 3 in a row
                 && cells[currentRow][1].content == theSeed
                 && cells[currentRow][2].content == theSeed
@@ -59,7 +59,7 @@ public class Board {
     }
 
     // paint itself
-    private void paint() {
+    void paint() {
         for (int row = 0; row < ROWS; ++row){
             for (int col = 0; col < COLS; ++col){
                 cells[row][col].paint(); // print each of the cells
