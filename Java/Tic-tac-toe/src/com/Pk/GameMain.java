@@ -16,6 +16,7 @@ public class GameMain {
         do {
             System.out.println("Do you wanna play or keep playing Tic Tac Toe: (true , false)");
             keepPlaying = in.nextBoolean();
+            if(!keepPlaying) break;
             // initialize the game-board and current status
             initGame();
             // plays game once. players CROSS and NOUGHT move alternatively
